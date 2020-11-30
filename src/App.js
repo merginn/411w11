@@ -9,7 +9,7 @@ function App() {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
 
-//////// The function of weather where it takes  
+//////// The function of weather where it takesss
   const search = evt => {
     if (evt.key === "Enter") {
       fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
@@ -22,7 +22,7 @@ function App() {
     }
   }
 
-////// The Function of Defining the Variables for Weather
+////// The Function of Defining the Variables for
   const dateBuilder = (d) => {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
